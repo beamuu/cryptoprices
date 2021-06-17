@@ -12,6 +12,7 @@ const Item = styled.button`
     color: ${props => props.active ? "white" : "rgb(41, 41, 41)"};
     margin-left: 15px;
     margin-right: 15px;
+    transition: 400ms ease;
     &:hover {
         background-color: rgb(135, 172, 252);
         color: white;
@@ -48,7 +49,7 @@ export default function Selector(props) {
                 <div className="mx-5 my-2">
                     <span>Display fiat currency as</span>
                     <Item active={activeCurrency === "THB" ? true : false} value="THB" onClick={handleChangeCurrency}>THB</Item>
-                    <Item active={activeCurrency === "USD" ? true : false} value="USD" onClick={handleChangeCurrency}>USD</Item>
+                    <Item active={activeCurrency === "USDT" ? true : false} value="USDT" onClick={handleChangeCurrency}>USDT</Item>
                 </div>
             </Block>
         </>
