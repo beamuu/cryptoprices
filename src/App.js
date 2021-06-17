@@ -47,7 +47,7 @@ function App() {
                                 
                                 <div className="py-3 bg-light full-width">
                                     <Block>
-                                        <p className="desc">Note: USDT prices calculated from USDT/THB at Bitkub market prices. Their may be some abitrage between other exchanges.</p>
+                                        <p className="desc">Note: USDT prices calculated from USDT/THB at Bitkub market prices. Their might be some abitrage between other exchanges.</p>
                                         <div className="mx-0 row">
                                             <div className="col-lg my-3">
                                                 <Card title="Bitcoin" quote="BTC" data={data} />
