@@ -47,13 +47,13 @@ function App() {
                                 
                                 <div className="py-3 bg-light full-width">
                                     <Block>
-                                        <p className="desc">Note: USD prices calculated from USDC/THB at Bitkub market prices. Some abitrage may occurs.</p>
+                                        <p className="desc">Note: USDT prices calculated from USDT/THB at Bitkub market prices. Their may be some abitrage between other exchanges.</p>
                                         <div className="mx-0 row">
                                             <div className="col-lg my-3">
                                                 <Card title="Bitcoin" quote="BTC" data={data} />
                                             </div>
                                             <div className="col-lg my-3">
-                                                <Card title="Ether" quote="ETH" data={data} />
+                                                <Card title="Ethereum" quote="ETH" data={data} />
                                             </div>
                                         </div>
                                         <div className="mx-0 row">
