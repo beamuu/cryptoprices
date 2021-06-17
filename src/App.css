@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'DM Sans', sans-serif;
+    transition: 500ms ease;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1,h2,h3,h4,h5,h6 {
+    color: rgb(60, 66, 79);
+    font-weight: 700;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    font-size: 260%;
+    /* font-size: 40px;
+    font-size: 10vw; */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+    font-size: 270%;
 }
-
-.App-link {
-  color: #61dafb;
+h3 {
+    font-size: 210%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dynamic-page {
+    width: 100%;
+    min-height: 100vh;
 }
+.full-width {
+    width: 100%;
+}
+div.block {
+    width: 100%;
+    max-width: 1000px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: lightcoral; */
+}
+.mylink {
+    color: rgb(6, 130, 247);
+    text-decoration: underline;
+}
+.card {
+    background: rgb(252, 252, 252);
+    border-style: none;
+    max-width: 100%;
+    min-height: 400px;
+    height: 101%;
+    box-shadow: 0 5px 10px rgb(230, 230, 230);
+    border-radius: 10px;
+}
+.bgimg {
+    border-radius: 10px 10px 0 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;   
+    height: 270px;
+    background-color: #d9dbdf;
+}
+.content {
+    height: 130px;
+}
+.title-color {
+    color: rgb(72, 72, 72);
+}
+.green {
+    background-color: rgb(49, 202, 136);
+    min-width: 50px;
+    width: auto !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    height: 30px;
+    border-radius: 5px;
+}
+.red {
+    background-color: rgb(236, 49, 87);
+    min-width: 70px;
+    width: auto !important;
+    padding-left: 10px !important; 
+    padding-right: 10px !important;
+    height: 30px;
+    border-radius: 5px;
+}
+.desc {
+    color: rgb(119, 126, 140);
+}
+.small {
+    font-size: 12px;
+}
+.loading {
+    background-color: rgb(236, 239, 242);
+}
+.title-darkblue {
+    color: rgb(37, 33, 105);
+}
+div.mynav-structure {
+    width: 100%;
+    min-height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.bg-light {
+    border-style: solid;
+    border-width: 0.5px 0 0 0;
+    border-color: #e6eaee;
+    background-color: #f3f6f8 !important;
+}
+.mynav-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+.price {
+    color: rgb(39, 107, 255);
+}
+.mytab {
+    background-color: rgb(234, 240, 245);
+    min-height: 30px;
+}
+.color-white {
+    color: white;
+}
+.myselector-container {
+    border-style: solid;
+    border-width: 0.5px 0 0 0;
+    border-color: #e6eaee;
+    background-color: white;
+    min-height: 40px;
+}
+.percentchange {
+    font-size: 1.5vh !important;
+}
+.footer {
+    background-color: white;
+    width: 100%;
+    min-height: 150px;
+}
+/* button.selector-item {
+    background-color: rgb(237, 240, 243);
+    border-style: none;
+    border-width: 1px;
+    border-color: rgb(197, 207, 228);
+    border-radius: 10px;
+    color: rgb(41, 41, 41);
+}
+button.selector-item:hover {
+    background-color: rgb(135, 172, 252);
+    color: white;
+    border-style: none;
+} */
