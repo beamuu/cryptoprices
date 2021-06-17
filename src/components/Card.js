@@ -37,7 +37,7 @@ export default function Card(props) {
                 <h5>{props.title}</h5>
                 <div className="full-width row m-0 mt-2">
                     <div className="col-8 p-0">
-                        <h4>{props.data ? (<span className="price">{currency === "USD" ? "$" : null}{currentPrice.toFixed(2)} {currency === "THB" ? "THB" : null}</span>) : "Getting price"}</h4>
+                        <h4>{props.data ? (<span className="price">{currency === "USDT" ? "$" : null}{currentPrice.toFixed(2)} {currency === "THB" ? "THB" : null}</span>) : "Getting price"}</h4>
                     </div>
                     <div className="col-4 d-flex justify-content-end">
                         <div className={"d-flex justify-content-center align-items-center pt-3 " + (percentChange >= 0 ? "green" : "red")}>
