@@ -28,7 +28,7 @@ export default function List(props) {
 
 
     return (
-        <div className="full-width row m-0 list pt-3">
+        <div className="full-width row m-0 list py-4">
             <div className="col coinicon-container mb-1">
                 <img src={coins[`THB_${props.quote}`].iconUrl} className="coinicon" />
             </div>

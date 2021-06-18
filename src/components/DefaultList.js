@@ -1,10 +1,12 @@
 import Block from './Block'
 import List from './List'
+import ListHead from './ListHead'
 export default function DefaultList({ data }) {
     return (
         <>
             <Block height="100vh">
                 <p className="desc">Note: USD prices calculated from USDT/THB at Bitkub market prices. Their might be some abitrage between other exchanges.</p>
+                <ListHead />
                 <List title="Bitcoin" quote="BTC" data={data} />
                 <List title="Ethereum" quote="ETH" data={data} />
                 <List title="Binance Coin" quote="BNB" data={data} />
