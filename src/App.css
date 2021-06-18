@@ -133,6 +133,47 @@ div.mynav-structure {
     width: 100%;
     min-height: 150px;
 }
+.list {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgb(212, 216, 220);
+    min-height: 40px;
+    height: auto;
+}
+.quote {
+    background-color:rgb(237, 237, 237);
+    font-size: 70%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(70, 70, 70);
+    border-radius: 5px;
+}
+.coinicon-container {
+    max-width: 30px !important;
+}
+.coinicon {
+    width: 26px ;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgb(230, 230, 230);
+}
+.listprice {
+    color: rgb(58, 74, 102);
+}
+
+img.asbutton {
+    opacity: 0.3;
+}
+img.asbutton-active {
+    opacity: 0.7;
+}
+img.asbutton:hover {
+    opacity: 0.7;
+    cursor: pointer; 
+}
+
+/* Already converted to styled component */
 /* button.selector-item {
     background-color: rgb(237, 240, 243);
     border-style: none;

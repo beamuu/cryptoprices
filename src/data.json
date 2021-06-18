@@ -1,0 +1,186 @@
+{
+    "THB_AAVE": {
+        "name": "Aave",
+        "iconUrl": "https://cryptologos.cc/logos/aave-aave-logo.png?v=010"
+    },
+    "THB_ABT": {
+        "name": "Arcblock",
+        "iconUrl": "https://cryptologos.cc/logos/arcblock-abt-logo.png?v=010"
+    },
+    "THB_ADA": {
+        "name": "Cardano",
+        "iconUrl": "https://cdn4.iconfinder.com/data/icons/crypto-currency-and-coin-2/256/cardano_ada-512.png"
+    },
+    "THB_ALPHA": {
+        "name": "Aplha Finance Lab",
+        "iconUrl": "https://cryptologos.cc/logos/alpha-finance-lab-alpha-logo.png?v=010"
+    },
+    "THB_BAL": {
+        "name": "Balancer",
+        "iconUrl": "https://cryptologos.cc/logos/balancer-bal-logo.png?v=010"
+    },
+    "THB_BAND": {
+        "name": "Band Protocol",
+        "iconUrl": "https://cryptologos.cc/logos/band-protocol-band-logo.png?v=010"
+    },
+    "THB_BAT": {
+        "name": "Basic Attention Token",
+        "iconUrl": "https://cryptologos.cc/logos/basic-attention-token-bat-logo.png?v=010"
+    },
+    "THB_BCH": {
+        "name": "Bitcoin Cash",
+        "iconUrl": "https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Bitcoin-Cash-BCH-icon.png"
+    },
+    "THB_BNB": {
+        "name": "Binance Coin",
+        "iconUrl": "https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Binance-Coin-BNB-icon.png"
+    },
+    "THB_BSV": {
+        "name": "Bitcoin SV",
+        "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAgVBMVEXqswD////prgDpsADprQDvxl389eHqtADvxVb9+Onz04b99+X13q3///v24a3xz3v67tb//vj4577++vH67tLwy27suSXtv0P67Mz46ML02JT02pvwyGP568jy0oP889ztvjbsuR723qXuwk324Kvwy23tv0H35LbvxVn02Zbwy3VMfc/EAAAMRUlEQVR4nNWda4OqIBCGESyrzdqybLtr7eZu//8HHtQu3kBlBvG8Hzsn41kQmGFmIJZuud55O91N5j/XwA9DhzhOGAbXw/20j7Znz9X++0Tjs93PaDfwCaWUxSI58Q/4P1AnOOyiT42N0EY4nN59O0YjdUpIg3k01NQSHYTDy4B3XD1bjpNSMrqcNbQGm3CxXDt2g54T9Kaz3i6QW4RK6M1+Wcu+K/clG808zEbhEbrRqO3QFEHSa4TXk1iEqzW093Ki9GeF1DIUQvc7wMRLxKh/QVksEQjPcz4P6hCl848eEK5G6N33FqMD8G4ASLja2Pr4EkZ7A3whQYSrq57hmReFMQIIzyPN/feSfQVsdpQJvbXG968oRtfKuwBVwr3izkyZkV06JTyGXbyAeVFfbVpVIXR/uudLGOcdES5JtwP0LUa2HRAuDmY6MBVdt97JtSU8GuvAVMz50ks4N9mBqehEI+E4MA/IEW+t1sY2hMuO10CRGDnqIdzZptFesvcaCN1RH0boU/SATjj2+zFCn2JB05exIeGqTx2YiLGG9kYzwm3vALlos5WxEeGlP3NMVvYMi/Cvn4AcsYlF1YBw0ldAjrjDIJz08R18itYj1hL2GpD34h+UsOeADbY3NYS9nWTesr8hhD1dJvKyI3XC6H8A5NON1GMsI+zfVk0gJosBkBCO/xdALsk2XEzohqab3VzMVyHcQM0lllXtx8DfEtuLQsITdIyy3TSj98f7zKd7NEQqXBZFhPBplOac8C8UOs58OsabrG2RLSUgRJhlOiYUzjYCQh/+g10TslsbwjvC+9F5HwrsjErCJcZK2DmhYG9TReihzHDdE5KwKeHofyVkVQeMFYQznN2aAcJK91uZ0EPajpogJE4TwgHSPsMIYcU4LRGiOX+NEBJa8oSXCB203zJCSII6wgneXtgMIS06wguEiFavIUJCCrEMBcID3hma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"
+    },
+    "THB_BTC": {
+        "name": "Bitcoin",
+        "iconUrl": "https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Bitcoin-BTC-icon.png"
+    },
+    "THB_COMP": {
+        "name": "Compound",
+        "iconUrl": "data:image/png;base64,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"
+    },
+    "THB_CRV": {
+        "name": "Curve DAO Token",
+        "iconUrl": "https://cryptologos.cc/logos/curve-dao-token-crv-logo.png?v=010"
+    },
+    "THB_CVC": {
+        "name": "Civic",
+        "iconUrl": "https://cryptologos.cc/logos/civic-cvc-logo.png?v=010"
+    },
+    "THB_DAI": {
+        "name": "DAI",
+        "iconUrl": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png?v=010"
+    },
+    "THB_DOGE": {
+        "name": "Dogecoin",
+        "iconUrl": "https://img2.thaipng.com/20180403/rfw/kisspng-dogecoin-cryptocurrency-digital-currency-doge-5ac3a787122c26.7280659415227718470745.jpg"
+    },
+    "THB_DOT": {
+        "name": "Polkadot",
+        "iconUrl": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png?v=010"
+    },
+    "THB_ENJ": {
+        "name": "Enjin Coin",
+        "iconUrl": "https://cryptologos.cc/logos/enjin-coin-enj-logo.png?v=010"
+    },
+    "THB_ETH": {
+        "name": "Ethereum",
+        "iconUrl": "https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Ethereum-ETH-icon.png"
+    },
+    "THB_EVX": {
+        "name": "Everex",
+        "iconUrl": "https://cryptologos.cc/logos/everex-evx-logo.png?v=010"
+    },
+    "THB_GLM": {
+        "name": "Golem",
+        "iconUrl": "data:image/png;base64,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"
+    },
+    "THB_IOST": {
+        "name": "IOST",
+        "iconUrl": "https://cryptologos.cc/logos/iostoken-iost-logo.png?v=010"
+    },
+    "THB_JFIN": {
+        "name": "JFIN",
+        "iconUrl": "https://pbs.twimg.com/profile_images/951352030483775488/BQD6kF8Y_400x400.jpg"
+    },
+    "THB_KNC": {
+        "name": "Kyber Network Crystal Legacy",
+        "iconUrl": "https://cryptologos.cc/logos/kyber-network-knc-logo.png?v=010"
+    },
+    "THB_KSM": {
+        "name": "Kusama",
+        "iconUrl": "https://cryptologos.cc/logos/kusama-ksm-logo.png?v=010"
+    },
+    "THB_KUB": {
+        "name": "Bitkub Coin",
+        "iconUrl": "https://revainassets.blob.core.windows.net/cms-assets-prod/bitkub_logo_180eba0a_8cc0_4cdb_9eb3_da1c516afde2_7606ab176b.png"
+    },
+    "THB_LINK": {
+        "name": "Chainlink",
+        "iconUrl": "https://cryptologos.cc/logos/chainlink-link-logo.png?v=010"
+    },
+    "THB_LTC": {
+        "name": "Litecoin",
+        "iconUrl": "https://cryptologos.cc/logos/litecoin-ltc-logo.png"
+    },
+    "THB_MANA": {
+        "name": "Decentraland",
+        "iconUrl": "https://cryptologos.cc/logos/decentraland-mana-logo.png?v=010"
+    },
+    "THB_MKR": {
+        "name": "Maker",
+        "iconUrl": "https://cryptologos.cc/logos/maker-mkr-logo.png?v=010"
+    },
+    "THB_NEAR": {
+        "name": "Near Protocol",
+        "iconUrl": "https://cryptologos.cc/logos/near-protocol-near-logo.png?v=010"
+    },
+    "THB_OMG": {
+        "name": "OMG Network",
+        "iconUrl": "https://cryptologos.cc/logos/omg-omg-logo.png?v=010"
+    },
+    "THB_POW": {
+        "name": "Power Ledger",
+        "iconUrl": "https://cryptologos.cc/logos/power-ledger-powr-logo.png?v=010"
+    },
+    "THB_RDN": {
+        "name": "Raiden Network Token",
+        "iconUrl": "https://cryptologos.cc/logos/raiden-network-token-rdn-logo.png?v=010"
+    },
+    "THB_SCRT": {
+        "name": "Secret",
+        "iconUrl": "https://cryptologos.cc/logos/secret-scrt-logo.png?v=010"
+    },
+    "THB_SIX": {
+        "name": "SIX",
+        "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/200x200/3327.png"
+    },
+    "THB_SNT": {
+        "name": "Status",
+        "iconUrl": "https://cryptologos.cc/logos/status-snt-logo.png?v=010"
+    },
+    "THB_UNI": {
+        "name": "Uniswap",
+        "iconUrl": "https://cryptologos.cc/logos/uniswap-uni-logo.png?v=010"
+    },
+    "THB_USDC": {
+        "name": "USD Coin",
+        "iconUrl": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png"
+    },
+    "THB_USDT": {
+        "name": "Tether",
+        "iconUrl": "https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Tether-USDT-icon.png"
+    },
+    "THB_WAN": {
+        "name": "Wanchain",
+        "iconUrl": "https://cryptologos.cc/logos/wanchain-wan-logo.png"
+    },
+    "THB_XLM": {
+        "name": "Stellar",
+        "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/200x200/512.png"
+    },
+    "THB_XRP": {
+        "name": "XRP",
+        "iconUrl": "https://cdn.freelogovectors.net/wp-content/uploads/2021/01/xrp-icon-freelogovectors.net_.png"
+    },
+    "THB_YFI": {
+        "name": "yearn.finance",
+        "iconUrl": "https://cryptologos.cc/logos/yearn-finance-yfi-logo.png?v=010"
+    },
+    "THB_ZIL": {
+        "name": "Ziliqa",
+        "iconUrl": "https://cryptologos.cc/logos/zilliqa-zil-logo.png?v=010"
+    },
+    "THB_ZRX": {
+        "name": "0x",
+        "iconUrl": "https://cryptologos.cc/logos/0x-zrx-logo.png?v=010"
+    }
+}
