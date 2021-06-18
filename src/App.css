@@ -19,6 +19,9 @@ h2 {
 h3 {
     font-size: 210%;
 }
+textarea:focus, input:focus{
+    outline: none;
+}
 .dynamic-page {
     width: 100%;
     min-height: 100vh;
@@ -36,6 +39,11 @@ div.block {
 .mylink {
     color: rgb(6, 130, 247);
     text-decoration: underline;
+}
+.card-container {
+    min-width: 300px;
+    width: min(100%,400px) !important;
+    max-width: 400px !important;
 }
 .card {
     background: rgb(252, 252, 252);
@@ -171,6 +179,19 @@ img.asbutton-active {
 img.asbutton:hover {
     opacity: 0.7;
     cursor: pointer; 
+}
+.selector-button {
+    border-style: none;
+    background-color: rgb(240, 244, 245) ;
+    color: rgb(49, 49, 49);
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: 400ms ease;
+}
+.selector-button:hover {
+    background-color:rgb(64, 125, 196);
+    color: white;
 }
 
 /* Already converted to styled component */

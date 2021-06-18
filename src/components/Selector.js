@@ -24,7 +24,7 @@ const Item = styled.button`
 export default function Selector(props) {
 
     const { activeCurrency, setActiveCurrency } = useContext(CurrencyContext)
-    const { activeDisplay , setActiveDisplay , setSearch } = useContext(DisplayContext)
+    const { activeDisplay , setActiveDisplay , setSearchText } = useContext(DisplayContext)
 
     const handleChangeCurrency = e => {
         const { value } = e.target
@@ -35,7 +35,12 @@ export default function Selector(props) {
         setActiveDisplay(name)
     }
     const handleSearchInput = e => {
-        const {value } = e.target.value
+        const { value } = e.target
+        setSearchText(value)
+    }
+    const clearSearch = () => {
+        document.getElementById("quotesearchbox").value = "";
+        setSearchText("")
     }
 
     return (
@@ -54,7 +59,8 @@ export default function Selector(props) {
                         <Item active={activeCurrency === "USDT" ? true : false} value="USDT" onClick={handleChangeCurrency}>USD</Item>
                     </div>
                     <div className="col-lg px-0 py-2">
-                        <input type="text" className="px-3" placeholder="Quote" onChange={}/>
+                        <input type="text" className="px-3" placeholder="Quote" onChange={handleSearchInput} id="quotesearchbox"/>
+                        <button className="selector-button" onClick={clearSearch}>Clear</button>
                     </div>
                     <div className="col-lg px-0 py-2">
                         <img src="/cardDisplay.png" width="20px" className={"mx-2 asbutton"+ (activeDisplay === "card" ? " asbutton-active" : "")} name="card" onClick={handleChangeDisplay}/>

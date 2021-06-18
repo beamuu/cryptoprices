@@ -32,21 +32,21 @@ export default function Card(props) {
     return (
         <div className="card full-width p-0 my-3">
             <div className="full-width bgimg" style={{ backgroundImage: `url(/cryptowallpaper/${props.quote}.png)` }} />
-            <div className="content full-width pt-4 pb-2 px-4">
+            <div className="content full-width pt-4 pb-2 px-3">
                 <div className="full-width small">{`${props.quote}/${currency}`}</div>
                 <h5>{props.title}</h5>
                 <div className="full-width row m-0 mt-2">
                     <div className="col-8 p-0">
                         <h4>{props.data ? (<span className="price">{currency === "USDT" ? "$" : null}{currentPrice.toFixed(2)} {currency === "THB" ? "THB" : null}</span>) : "Getting price"}</h4>
                     </div>
-                    <div className="col-4 d-flex justify-content-end">
+                    <div className="col-4 d-flex justify-content-end p-0">
                         <div className={"d-flex justify-content-center align-items-center pt-3 " + (percentChange >= 0 ? "green" : "red")}>
                             <p className="color-white percentchange"> {percentChange >= 0 ? `▲${percentChange}` : `▼${Math.abs(percentChange)}`} %</p>
                         </div>
                     </div>
                 </div>
                 <p className="my-0 small">24 hours ago</p>
-                <p className="my-0 small">high: {high24hr} , low: {low24hr}</p>
+                <p className="my-0 small">high: {currency === "USDT" ? (high24hr/props.data["THB_USDC"].last).toFixed(2) : high24hr} , low: {currency === "USDT" ? (low24hr/props.data["THB_USDC"].last).toFixed(2) : low24hr}</p>
             </div>
         </div>
     )

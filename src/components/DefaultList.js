@@ -3,7 +3,7 @@ import List from './List'
 export default function DefaultList({ data }) {
     return (
         <>
-            <Block>
+            <Block height="100vh">
                 <p className="desc">Note: USD prices calculated from USDT/THB at Bitkub market prices. Their might be some abitrage between other exchanges.</p>
                 <List title="Bitcoin" quote="BTC" data={data} />
                 <List title="Ethereum" quote="ETH" data={data} />

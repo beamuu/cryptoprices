@@ -5,6 +5,7 @@ export const DisplayContext = React.createContext()
 export const DisplayProvider = ({ children }) => {
     const [activeDisplay , setActiveDisplay] = useState("card")
     const [searchText , setSearchText] = useState("")
+    console.log(searchText)
     return (
         <DisplayContext.Provider value={{activeDisplay , setActiveDisplay , searchText , setSearchText}}>
             { children }
