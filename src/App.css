@@ -64,7 +64,7 @@ div.block {
     max-width: 100%;
     min-height: 400px;
     height: 101%;
-    box-shadow: 0 5px 10px rgb(36, 36, 36);
+    /* box-shadow: 0 5px 10px rgb(36, 36, 36); */
     border-radius: 10px;
     transition: 400ms ease;
 }
