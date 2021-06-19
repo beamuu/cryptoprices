@@ -1,5 +1,6 @@
 import React, { useState, useContext } from 'react'
 import { CurrencyContext } from './contexts/Currency'
+import { ThemeContext } from './contexts/Theme'
 const coins = require("../data.json")
 
 export default function List(props) {
@@ -7,6 +8,7 @@ export default function List(props) {
     const [currency, setCurrency] = useState("THB")
 
     const { activeCurrency } = useContext(CurrencyContext)
+    const { theme } = useContext(ThemeContext)
 
     if (currency !== activeCurrency) {
         setCurrency(activeCurrency)
@@ -28,15 +30,15 @@ export default function List(props) {
 
 
     return (
-        <div className="full-width row m-0 list py-4">
+        <div className={`full-width row m-0 list${theme ? "" : "-dark"} py-4`}>
             <div className="col coinicon-container mb-1">
                 <img src={coins[`THB_${props.quote}`].iconUrl} className="coinicon" />
             </div>
             <div className="col mb-1">
-                <span className="mr-2">{props.title}</span><span className="mx-1 quote">{props.quote}</span>
+                <span className="mr-2">{props.title}</span><span className={`mx-1 quote${theme ? "" : "-dark"}`}>{props.quote}</span>
             </div>
             <div className="col text-end mb-1">
-                <b>{props.data ? (<span className="listprice">{currency === "USDT" ? "$" : null}{currentPrice.toFixed(2)} {currency === "THB" ? "THB" : null}</span>) : "Getting price"}</b>
+                <b>{props.data ? (<span className={`listprice${theme ? "" : "-dark"}`}>{currency === "USDT" ? "$" : null}{currentPrice.toFixed(2)} {currency === "THB" ? "THB" : null}</span>) : "Getting price"}</b>
             </div>
             <div className="col-sm text-end small mb-1">
                 high: {currency === "USDT" ? (high24hr/props.data["THB_USDC"].last).toFixed(2) : high24hr} , low: {currency === "USDT" ? (low24hr/props.data["THB_USDC"].last).toFixed(2) : low24hr}

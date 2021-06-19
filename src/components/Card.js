@@ -1,12 +1,15 @@
 import React, { useState , useContext } from 'react'
 import { CurrencyContext } from './contexts/Currency'
-
+import { ThemeContext } from './contexts/Theme'
+import { H5 , H6 } from './H'
 
 export default function Card(props) {
 
     const [currency, setCurrency] = useState("THB")
 
     const { activeCurrency } =  useContext(CurrencyContext)
+    const { theme } =  useContext(ThemeContext)
+    // const activeTheme = theme ? "light": "dark"
 
     if (currency !== activeCurrency) {
         setCurrency(activeCurrency)
@@ -30,14 +33,14 @@ export default function Card(props) {
 
 
     return (
-        <div className="card full-width p-0 my-3">
+        <div className={theme ? "card full-width p-0 my-3" : "card-dark full-width p-0 my-3"}>
             <div className="full-width bgimg" style={{ backgroundImage: `url(/cryptowallpaper/${props.quote}.png)` }} />
             <div className="content full-width pt-4 pb-2 px-3">
                 <div className="full-width small">{`${props.quote}/${currency}`}</div>
-                <h5>{props.title}</h5>
+                <H5>{props.title}</H5>
                 <div className="full-width row m-0 mt-2">
                     <div className="col-8 p-0">
-                        <h4>{props.data ? (<span className="price">{currency === "USDT" ? "$" : null}{currentPrice.toFixed(2)} {currency === "THB" ? "THB" : null}</span>) : "Getting price"}</h4>
+                        <h6>{props.data ? (<span className="price">{currency === "USDT" ? "$" : null}{currentPrice.toFixed(2)} {currency === "THB" ? "THB" : null}</span>) : "Getting price"}</h6>
                     </div>
                     <div className="col-4 d-flex justify-content-end p-0">
                         <div className={"d-flex justify-content-center align-items-center pt-3 " + (percentChange >= 0 ? "green" : "red")}>

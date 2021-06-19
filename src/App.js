@@ -15,9 +15,11 @@ import Loading from './components/Loading'
 import Nav from './components/Nav'
 import Selector from './components/Selector'
 import Footer from './components/Footer'
+import MainWindow from './components/MainWindow'
+import { H3 } from './components/H'
 
 // Display mode now show in Window.js (Component)
-import Window from'./components/Window'
+import Window from './components/Window'
 function App() {
 
     const [data, setData] = useState(null)
@@ -46,16 +48,15 @@ function App() {
                                 data ? (<>
                                     <Block height="300px">
                                         <br /><br /><br /><br /><br /><br />
-                                        <h3>Today's Cryptocurrency Prices</h3>
+                                        <H3>Today's Cryptocurrency Prices</H3>
                                         <p className="desc">Prices from <a className="mylink" href="https://bitkub.com">bitkub.com</a>. Prices won't automatically updated. Please refresh the page for the latest prices.</p>
                                     </Block>
-                                    <div className="full-width myselector-container">
-                                        <Selector />
-                                    </div>
 
-                                    <div className="py-3 bg-light full-width">
-                                        <Window data={data} />
-                                    </div>
+                                    <Selector />
+
+
+                                    <MainWindow data={data} />
+
                                     <Footer />
                                 </>)
                                     :

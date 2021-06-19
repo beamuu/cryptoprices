@@ -2,11 +2,14 @@ body {
     margin: 0 !important;
     padding: 0 !important;
     font-family: 'DM Sans', sans-serif;
-    transition: 500ms ease;
+    transition: 400ms ease;
 }
 h1,h2,h3,h4,h5,h6 {
     color: rgb(60, 66, 79);
     font-weight: 700;
+}
+.h-dark {
+    color: white;
 }
 h1 {
     font-size: 260%;
@@ -53,6 +56,17 @@ div.block {
     height: 101%;
     box-shadow: 0 5px 10px rgb(230, 230, 230);
     border-radius: 10px;
+    transition: 400ms ease;
+}
+.card-dark {
+    background: rgb(36, 36, 36);
+    border-style: none;
+    max-width: 100%;
+    min-height: 400px;
+    height: 101%;
+    box-shadow: 0 5px 10px rgb(36, 36, 36);
+    border-radius: 10px;
+    transition: 400ms ease;
 }
 .bgimg {
     border-radius: 10px 10px 0 0 ;
@@ -95,6 +109,9 @@ div.block {
 .loading {
     background-color: rgb(236, 239, 242);
 }
+.loading-dark {
+    background-color: rgb(40, 40, 41);
+}
 .title-darkblue {
     color: rgb(37, 33, 105);
 }
@@ -105,12 +122,30 @@ div.mynav-structure {
     position: fixed;
     top: 0;
     z-index: 100;
+    transition: 400ms ease;
+}
+div.mynav-structure-dark {
+    width: 100%;
+    min-height: 60px;
+    background-color: #1c1e21;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    transition: 400ms ease;
 }
 .bg-light {
     border-style: solid;
     border-width: 0.5px 0 0 0;
     border-color: #e6eaee;
     background-color: #f3f6f8 !important;
+    transition: 400ms ease;
+}
+.bg-dark {
+    border-style: solid;
+    border-width: 0.5px 0 0 0;
+    border-color: #303030;
+    background-color: #16171a !important;
+    transition: 400ms ease;
 }
 .mynav-brand {
     font-weight: 700;
@@ -130,9 +165,19 @@ div.mynav-structure {
     border-style: solid;
     border-width: 0.5px 0 0 0;
     border-color: #e6eaee;
-    background-color: white;
+    background-color: transparent;
     min-height: 40px;
+    transition: 400ms ease;
 }
+.myselector-container-dark {
+    border-style: solid;
+    border-width: 0.5px 0 0 0;
+    border-color: #303030;
+    background-color: transparent;
+    min-height: 40px;
+    transition: 400ms ease;
+}
+
 .percentchange {
     font-size: 1.5vh !important;
 }
@@ -140,11 +185,25 @@ div.mynav-structure {
     background-color: white;
     width: 100%;
     min-height: 150px;
+    transition: 400ms ease;
+}
+.footer-dark {
+    background-color: rgb(31, 31, 31);
+    width: 100%;
+    min-height: 150px;
+    transition: 400ms ease;
 }
 .list {
     border-style: solid;
     border-width: 0 0 1px 0;
     border-color: rgb(212, 216, 220);
+    min-height: 40px;
+    height: auto;
+}
+.list-dark {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgb(54, 55, 56);
     min-height: 40px;
     height: auto;
 }
@@ -158,16 +217,30 @@ div.mynav-structure {
     color: rgb(70, 70, 70);
     border-radius: 5px;
 }
+.quote-dark {
+    background-color:rgb(53, 53, 53);
+    font-size: 70%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(208, 208, 208);
+    border-radius: 5px;
+}
 .coinicon-container {
     max-width: 30px !important;
 }
 .coinicon {
     width: 26px ;
     border-radius: 50%;
-    box-shadow: 0 5px 15px rgb(230, 230, 230);
+    background-color: white;
+    /* box-shadow: 0 5px 15px rgb(230, 230, 230); */
 }
 .listprice {
     color: rgb(58, 74, 102);
+}
+.listprice-dark {
+    color: white;
 }
 
 img.asbutton {
@@ -193,7 +266,19 @@ img.asbutton:hover {
     background-color:rgb(64, 125, 196);
     color: white;
 }
-
+.toggle-theme {
+    cursor: pointer;
+}
+.github {
+    border-radius: 50%;
+}
+.github-dark {
+    border-radius: 50%;
+    filter: invert(1)
+}
+.invert {
+    filter: invert(1);
+}
 /* Already converted to styled component */
 /* button.selector-item {
     background-color: rgb(237, 240, 243);
