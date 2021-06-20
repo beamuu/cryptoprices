@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 
-
-
 const themes = {
     dark: {
         backgroundColor: "#1c1e21",
@@ -23,8 +21,6 @@ function calculatePerferredTheme() {
     }
     
 }
-
-
 
 export const ThemeContext = React.createContext()
 

@@ -10,7 +10,6 @@ import { DisplayProvider } from './components/contexts/Display'
 // Components
 import Background from './components/Background'
 import Block from './components/Block'
-import Card from './components/Card'
 import Loading from './components/Loading'
 import Nav from './components/Nav'
 import Selector from './components/Selector'
@@ -18,8 +17,8 @@ import Footer from './components/Footer'
 import MainWindow from './components/MainWindow'
 import { H3 } from './components/H'
 
-// Display mode now show in Window.js (Component)
-import Window from './components/Window'
+// Display mode now show in MainWindow.js (Component)
+
 function App() {
 
     const [data, setData] = useState(null)
