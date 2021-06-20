@@ -23,14 +23,11 @@ import Window from './components/Window'
 function App() {
 
     const [data, setData] = useState(null)
-    const [quotes, setQuotes] = useState(null)
-    const [search, setSearch] = useState(null)
     useEffect(() => {
         fetch("https://api.bitkub.com/api/market/ticker")
             .then(res => res.json())
             .then(res => {
                 setData(res)
-                setQuotes(Object.keys(res))
             })
         // console.log(Object.keys(r).length)
 
