@@ -7,17 +7,17 @@ This project has been created for education purpose only (a nonprofit project). 
 # Getting started
 - Clone this repository
 ```shell
-git clone https://github.com/nutchanonc/cryptoprices.git
+$ git clone https://github.com/nutchanonc/cryptoprices.git
 ```
 - Once you have cloned, make sure you have install `nodejs` and `npm`.
 - Install all dependencies.
 
 ```shell
-npm i
+$ npm i
 ```
 
 - Start React server.
 ```shell
-npm start
+$ npm start
 ```
 - Edit/Customize these files as you wish.
