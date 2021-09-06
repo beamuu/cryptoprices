@@ -5,8 +5,19 @@ Cryptoprices is a cryptocurrency prices website which base on Bitkub exchange ma
 This project has been created for education purpose only (a nonprofit project). This website was created using [React](https://reactjs.org).
 
 # Getting started
-- Use `git clone https://github.com/nutchanonc/cryptoprices` at your terminal to clone this project.
+- Clone this repository
+```shell
+git clone https://github.com/nutchanonc/cryptoprices.git
+```
 - Once you have cloned, make sure you have install `nodejs` and `npm`.
-- Use `npm i` or `npm install` to install all dependencies.
-- Use `npm start` to start React server.
-- Edit/Customize those files as you wish.
+- Install all dependencies.
+
+```shell
+npm i
+```
+
+- Start React server.
+```shell
+npm start
+```
+- Edit/Customize these files as you wish.
