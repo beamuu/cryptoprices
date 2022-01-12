@@ -16,6 +16,11 @@ export default function List(props) {
 
     var currentPrice;
 
+    if (props.data[`THB_${props.quote}`] === undefined) {
+        console.log(props.quote, "is unavailable.")
+        return null
+    }
+
     if (currency === "THB") {
         currentPrice = new Number(props.data[`THB_${props.quote}`].last)
     }

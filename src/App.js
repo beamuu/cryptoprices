@@ -22,12 +22,18 @@ import { H3 } from './components/H'
 function App() {
 
     const [data, setData] = useState(null)
-    useEffect(() => {
+
+    function init() {
         fetch("https://api.bitkub.com/api/market/ticker")
             .then(res => res.json())
             .then(res => {
                 setData(res)
             })
+    }
+
+    useEffect(() => {
+        init()
+        setInterval(init, 10000)
         // console.log(Object.keys(r).length)
 
     }, [])
